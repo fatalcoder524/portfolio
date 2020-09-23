@@ -1,10 +1,12 @@
 import React from 'react';
 import { Transition, animated } from 'react-spring/renderprops';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function NameTag() {
     return (
         <div>
-            <div class='name-container animated animatedFadeInUp fadeInUp'>
+            <div data-aos='fade-up' class='name-container '>
              
                 <p class='greet'>Hi my name is</p>
                 <p class='name'>Rahul Kakkadan</p>
