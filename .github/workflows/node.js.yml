@@ -31,7 +31,7 @@ jobs:
         CI: ""
     - uses: actions/checkout@v2
       with:
-        clean: ''
+        clean: ""
         ref: build
           
     - name: Auto committing react-app build
